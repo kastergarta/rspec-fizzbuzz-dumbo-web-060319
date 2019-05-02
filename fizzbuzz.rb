@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if num = 3
+  if num % 3 == 0
     return fizz
-  elsif num = 5
+  elsif num % 5 == 0
     return buzz 
-  elsif num = 15
+  elsif num % 15 == 0
     return fizzbuzz
   end
 end  
